@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section id="despre" className="py-16 bg-gray-50">
+    <section id="despre" className="bg-gray-50">
       <div className="max-w-3xl mx-auto text-center px-6">
         <h1 className="font-bold text-3xl mb-4 relative inline-block">
           Despre Nordiq

@@ -2,7 +2,8 @@ import Navbar from "../components/Navbar";
 import AboutSection from "../sections/AboutSection";
 import ContactSection from "../sections/ContactSection";
 import HeroSection from "../sections/HeroSection";
-import ServicesSection from "../sections/ServicesSection";
+import PortofolioSection from "../sections/portofolio/PortofolioSection";
+import ServicesSection from "../sections/services/ServicesSection";
 
 export default function Homepage() {
   return (
@@ -10,6 +11,7 @@ export default function Homepage() {
       <Navbar />
       <HeroSection />
       <ServicesSection />
+      <PortofolioSection />
       <AboutSection />
       <ContactSection />
     </div>
