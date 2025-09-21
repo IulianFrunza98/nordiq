@@ -21,7 +21,6 @@ export default function ProjectPage() {
 
       <p className="text-gray-700 mb-6">{project.description}</p>
 
-      <h2 className="font-semibold text-xl mb-2">Galerie:</h2>
       <div className="flex items-center justify-center gap-7 flex-wrap">
         {Object.values(project.gallery[0].images).map((img, idx) =>
           img ? (
@@ -29,7 +28,7 @@ export default function ProjectPage() {
               key={idx}
               src={img}
               alt={`Gallery ${idx + 1}`}
-              className="rounded shadow w-[200px]"
+              className="rounded shadow"
             />
           ) : null
         )}
