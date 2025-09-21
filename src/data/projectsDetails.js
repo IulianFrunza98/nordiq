@@ -2,6 +2,7 @@ import project1Img1 from "../assets/Project 1/0-xc60-b4-2021.jpg";
 import project1Img2 from "../assets/Project 1/1-xc60-b4-2021.jpg";
 import project1Img3 from "../assets/Project 1/2-xc60-b4-2021.jpg";
 import project1Img4 from "../assets/Project 1/3-xc6-0b4-2021.jpg";
+import project1Video1 from "../assets/Project 1/xc60-b4-2021.mp4";
 
 const projectsDetails = [
   {
@@ -32,7 +33,7 @@ const projectsDetails = [
           image3: project1Img3,
           image4: project1Img4,
         },
-        videos: { video1: "" },
+        videos: { video1: project1Video1 },
       },
     ],
   },

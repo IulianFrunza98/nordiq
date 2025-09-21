@@ -1,6 +1,8 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import projectsDetails from "../data/projectsDetails";
-import Card from "../ui/Card";
+import { ArrowLeft } from "lucide-react";
+import ProjectGallery from "../components/ProjectGallery";
+import ActivationsList from "../components/ActivationsList";
 
 export default function ProjectPage() {
   const { id } = useParams();
@@ -9,29 +11,26 @@ export default function ProjectPage() {
   if (!project) return <p>Proiectul nu a fost găsit.</p>;
 
   return (
-    <div className="max-w-3xl flex items-center flex-col gap-4 justify-center mx-auto py-12 px-4">
-      <h1 className="font-bold text-3xl mb-4 text-blue-500">{project.title}</h1>
+    <div className="w-full relative flex flex-col items-center gap-8 justify-center mx-auto py-12 px-6">
+      <Link
+        to="/"
+        className="absolute top-6 left-6 hidden sm:flex items-center px-5 py-1 bg-black text-white rounded shadow hover:opacity-80 transition-opacity duration-200"
+      >
+        <ArrowLeft size={24} />
+      </Link>
 
-      <h2 className="font-semibold text-xl mb-2">Activări realizate:</h2>
-      <div className="flex flex-wrap justify-center gap-4">
-        {project.activations?.map((act, idx) => (
-          <Card key={idx} text={act} />
-        ))}
-      </div>
+      <h1 className="font-bold text-3xl mb-[10px] sm:mb-[30px] text-blue-500 text-center">
+        {project.title}
+      </h1>
 
-      <p className="text-gray-700 mb-6">{project.description}</p>
+      <div className="flex flex-col md:flex-row gap-8 w-full items-stretch">
+        <div className="flex-1 bg-white rounded-lg shadow-md p-4">
+          <ActivationsList project={project} />
+        </div>
 
-      <div className="flex items-center justify-center gap-7 flex-wrap">
-        {Object.values(project.gallery[0].images).map((img, idx) =>
-          img ? (
-            <img
-              key={idx}
-              src={img}
-              alt={`Gallery ${idx + 1}`}
-              className="rounded shadow"
-            />
-          ) : null
-        )}
+        <div className="flex-1 bg-white rounded-lg shadow-md p-4">
+          <ProjectGallery project={project} />
+        </div>
       </div>
     </div>
   );

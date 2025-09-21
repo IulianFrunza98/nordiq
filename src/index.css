@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  @apply scroll-smooth;
+}
+
 section {
   @apply w-full py-[40px] px-[20px] mx-auto gap-4 flex text-center flex-col items-center justify-center;
 }

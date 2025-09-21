@@ -8,7 +8,7 @@ export default function ProjectCard({ id, image, title, description }) {
         <img src={image} alt={title} className="h-full w-full object-cover" />
       </div>
 
-      <div className="p-3 flex flex-col gap-2 text-center">
+      <div className="p-3 flex flex-col gap-3 text-center">
         <h2 className="text-blue-500 font-semibold">{title}</h2>
         <p className="font-medium text-gray-700 text-sm leading-snug">
           {description}
