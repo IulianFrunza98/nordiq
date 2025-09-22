@@ -1,17 +1,10 @@
 import { Check } from "lucide-react";
 
 export const services = [
-  {
-    id: 1,
-    text: "Activări funcții (ACC, Pilot Assist, Traffic Jam Assist, Dezactivare totală Start/Stop etc.)",
-    icon: Check,
-  },
-  { id: 2, text: "Retrofituri hardware + software", icon: Check },
-  { id: 3, text: "Diagnoză completă cu unelte profesionale", icon: Check },
-  { id: 4, text: "Optimizări software personalizate", icon: Check },
-  {
-    id: 5,
-    text: "Suport pentru vehicule diesel, benzină, electrice și hibride",
-    icon: Check,
-  },
+  { id: 1, key: "service1", icon: Check },
+  { id: 2, key: "service2", icon: Check },
+  { id: 3, key: "service3", icon: Check },
+  { id: 4, key: "service4", icon: Check },
+  { id: 5, key: "service5", icon: Check },
+  { id: 6, key: "service6", icon: Check },
 ];

@@ -1,20 +1,24 @@
-import projects from "../../data/projects";
+import { useTranslation } from "react-i18next";
+import projectsDetails from "../../data/projectsDetails";
 import ProjectCard from "./ProjectCard";
 
-export default function PortofolioSection() {
+export default function PortfolioSection() {
+  const { t } = useTranslation();
+
   return (
-    <section id="portofoliu">
-      <h1 className="font-bold text-3xl mb-4 relative inline-block">
-        Portofoliu
+    <section id="portofoliu" className="py-16 px-4">
+      <h1 className="font-bold text-3xl mb-10 text-center relative inline-block">
+        {t("portfolio")}
       </h1>
+
       <div className="flex flex-wrap items-center justify-center flex-col sm:flex-row gap-7">
-        {projects.map((project) => (
+        {projectsDetails.map((project) => (
           <ProjectCard
             key={project.id}
             id={project.id}
-            image={project.image}
-            title={project.title}
-            description={project.description}
+            image={project.gallery[0].images.image1}
+            title={t(project.titleKey)}
+            description={t(project.descriptionKey)}
           />
         ))}
       </div>

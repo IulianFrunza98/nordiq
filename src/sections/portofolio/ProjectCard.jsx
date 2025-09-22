@@ -1,7 +1,9 @@
 import { ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export default function ProjectCard({ id, image, title, description }) {
+  const { t } = useTranslation();
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 w-64 cursor-pointer overflow-hidden">
       <div className="w-full h-full bg-gray-100 flex items-center justify-center">
@@ -17,7 +19,7 @@ export default function ProjectCard({ id, image, title, description }) {
           to={`/proiecte/${id}`}
           className="text-blue-600 font-medium flex items-center justify-center gap-2"
         >
-          Vezi detalii{" "}
+          {t("viewDetails")}{" "}
           <ArrowRight
             size={16}
             className="hover:translate-x-1 transition duration-200"

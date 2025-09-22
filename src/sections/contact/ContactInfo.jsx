@@ -2,7 +2,7 @@ import { Mail, MapPinned, Phone } from "lucide-react";
 
 export default function ContactInfo() {
   return (
-    <div className="grid grid-cols-3 gap-8 max-w-4xl mx-auto">
+    <div className="flex items-center justify-center gap-10">
       <div className="flex flex-col items-center">
         <MapPinned className="w-8 h-8 text-gray-600" />
         <p className="mt-2 font-medium text-gray-700 text-lg">Suceava</p>

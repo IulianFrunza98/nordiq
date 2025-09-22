@@ -7,23 +7,22 @@ import project1Video1 from "../assets/Project 1/xc60-b4-2021.mp4";
 const projectsDetails = [
   {
     id: "volvo-xc60",
-    title: "Volvo XC60 B4 AWD 2021",
-    description:
-      "Diagnoză completă, calibrare senzori și optimizări software. Rezultatul: condus mai fluid și eficient pe autostradă și în oraș.",
-    activations: [
-      "Fază lungă automată → fază adaptivă în funcție de trafic",
-      "Asistență la schimbarea benzii → activată (nivel 2)",
-      "Start/Stop automat → complet dezactivat",
-      "Teme de afișaj → temă Polestar",
-      "Afișare extinsă a limitei de viteză → activată",
-      "Asistență la viteză în curbe → activată",
-      "Avertizare distanță față de vehiculul din față → activată",
-      "Lumină în viraje (cornering) → activată",
-      "Lumină de călătorie pentru turiști → setată pentru circulație pe partea dreaptă (LHD)",
-      "Semnal sonor la închiderea centralizată → activat",
-      "Limitare viteză maximă vehicul → eliminată",
-      "Pilot automat adaptiv (ACC) → activat (nivel 2+)",
-      "Versiune ACC → 4 (cea mai recentă versiune disponibilă)",
+    titleKey: "project1.title",
+    descriptionKey: "project1.description",
+    activationsKeys: [
+      "project1.activation1",
+      "project1.activation2",
+      "project1.activation3",
+      "project1.activation4",
+      "project1.activation5",
+      "project1.activation6",
+      "project1.activation7",
+      "project1.activation8",
+      "project1.activation9",
+      "project1.activation10",
+      "project1.activation11",
+      "project1.activation12",
+      "project1.activation13",
     ],
     gallery: [
       {
