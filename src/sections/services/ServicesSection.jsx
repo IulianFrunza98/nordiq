@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 export default function ServicesSection() {
   const { t } = useTranslation();
   return (
-    <section id="servicii" className="bg-gray-50">
+    <section id="services" className="bg-gray-50">
       <h1 className="font-bold text-3xl mb-4 relative inline-block">
         {t("ourServices")}
       </h1>

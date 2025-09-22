@@ -1,6 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
+const savedLanguage = localStorage.getItem("language") || "ro";
+
 i18n.use(initReactI18next).init({
   resources: {
     en: {
@@ -113,8 +115,12 @@ i18n.use(initReactI18next).init({
       },
     },
   },
-  lng: "ro",
+  lng: savedLanguage,
   fallbackLng: "en",
+  detection: {
+    order: ["localStorage", "navigator"],
+    caches: ["localStorage"],
+  },
   interpolation: { escapeValue: false },
 });
 

@@ -6,7 +6,7 @@ export default function PortfolioSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="portofoliu" className="py-16 px-4">
+    <section id="portfolio" className="py-16 px-4">
       <h1 className="font-bold text-3xl mb-10 text-center relative inline-block">
         {t("portfolio")}
       </h1>
