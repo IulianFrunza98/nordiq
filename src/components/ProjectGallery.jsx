@@ -12,8 +12,8 @@ export default function ProjectGallery({ project }) {
               <div key={idx} className="aspect-[4/3]">
                 <img
                   src={img}
-                  alt={`Gallery ${idx + 1}`}
-                  className="w-full h-full object-cover rounded-md hover:scale-103 transition duration-200"
+                  alt={`Image ${idx + 1}`}
+                  className="w-full cursor-pointer h-full object-cover rounded-md hover:scale-103 transition duration-200"
                 />
               </div>
             )
