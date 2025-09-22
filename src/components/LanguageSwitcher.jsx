@@ -1,40 +1,67 @@
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import flagIcons from "../data/flagIcons";
+import languages from "../data/languages";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const language = i18n.language;
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentLang, setCurrentLang] = useState(
+    localStorage.getItem("language") || i18n.language || "ro"
+  );
 
-  const toggleLanguage = () => {
-    const newLang = language === "en" ? "ro" : "en";
-    i18n.changeLanguage(newLang);
-    localStorage.setItem("language", newLang);
+  useEffect(() => {
+    i18n.changeLanguage(currentLang);
+    localStorage.setItem("language", currentLang);
+  }, [currentLang, i18n]);
+
+  const toggleDropdown = () => setIsOpen(!isOpen);
+
+  const handleSelect = (code) => {
+    setCurrentLang(code);
+    setIsOpen(false);
   };
 
-  return (
-    <div
-      className="w-20 h-8 bg-gray-300 rounded-full p-1 flex items-center relative cursor-pointer"
-      onClick={toggleLanguage}
-    >
-      <div
-        className={`absolute top-1 left-1 w-8 h-6 bg-blue-500 rounded-full shadow-md transform transition-transform duration-300 ${
-          language === "en" ? "translate-x-0" : "translate-x-10"
-        }`}
-      ></div>
+  const selected = languages.find((l) => l.code === currentLang);
 
-      <span
-        className={`absolute left-3 text-xs font-semibold transition-colors duration-300 ${
-          language === "en" ? "text-white" : "text-gray-700"
-        }`}
+  return (
+    <div className="relative inline-block text-left">
+      <button
+        onClick={toggleDropdown}
+        className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-3 py-1 rounded-lg shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
       >
-        EN
-      </span>
-      <span
-        className={`absolute right-3 text-xs font-semibold transition-colors duration-300 ${
-          language === "ro" ? "text-white" : "text-gray-700"
-        }`}
-      >
-        RO
-      </span>
+        <img
+          src={flagIcons[selected.code]}
+          alt={selected.label}
+          className="w-5 h-5 object-cover rounded-sm"
+        />
+        <span className="font-semibold">{selected.label}</span>
+      </button>
+
+      {isOpen && (
+        <ul className="absolute mt-2 w-40 right-[-10px] bg-white border rounded-lg shadow-lg z-50 overflow-hidden">
+          {languages.map((lang) => (
+            <li
+              key={lang.code}
+              onClick={() => handleSelect(lang.code)}
+              className="flex items-center gap-2 px-3 py-2 cursor-pointer hover:bg-blue-100 transition-colors duration-150"
+            >
+              <img
+                src={flagIcons[lang.code]}
+                alt={lang.label}
+                className="w-5 h-5 object-cover rounded-sm"
+              />
+              <span
+                className={`font-medium ${
+                  lang.code === currentLang ? "text-blue-600" : "text-gray-800"
+                }`}
+              >
+                {lang.label}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

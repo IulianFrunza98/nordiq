@@ -10,21 +10,11 @@ export default function Navbar() {
   return (
     <nav className="bg-black w-full px-4 py-1 flex items-center justify-between relative">
       <Logo />
-
-      {menuOpen ? (
-        <X
-          className="text-white sm:hidden block cursor-pointer z-50"
-          onClick={() => setIsOpen((open) => !open)}
-        />
-      ) : (
-        <MenuIcon
-          onClick={() => setIsOpen((open) => !open)}
-          className="text-white sm:hidden block cursor-pointer z-50"
-        />
-      )}
-
+      <MenuIcon
+        onClick={() => setIsOpen((open) => !open)}
+        className="text-white sm:hidden block cursor-pointer z-50"
+      />
       <DesktopMenu />
-
       <MobileMenu open={menuOpen} setOpen={setIsOpen} />
     </nav>
   );

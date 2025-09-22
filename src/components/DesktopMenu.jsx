@@ -1,14 +1,9 @@
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
+import links from "../data/navLinks";
 
 export default function DesktopMenu() {
   const { t } = useTranslation();
-  const links = [
-    { id: "services", key: "services" },
-    { id: "portfolio", key: "portfolio" },
-    { id: "about", key: "about" },
-    { id: "contact", key: "contact" },
-  ];
 
   return (
     <ul className="sm:flex hidden items-center gap-5 font-bold">
