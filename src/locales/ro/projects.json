@@ -1,0 +1,44 @@
+{
+  "projects": {
+    "volvo-xc60": {
+      "title": "Volvo XC60 B4 AWD 2021",
+      "projectHeader": {
+        "configurations": "Configurare și optimizări",
+        "diagnosisTitle": "Diagnoză completă, calibrare senzori și optimizări software",
+        "result": "Rezultatul: condus mai fluid și eficient pe autostradă și în oraș – experiența complet adaptată pentru LHD.",
+        "tags": {
+          "fullDiagnosis": "Diagnostic complet",
+          "sensorCalibration": "Calibrare senzori",
+          "softwareOptimized": "Software optimizat"
+        },
+        "cards": {
+          "modeActive": "Mod activ",
+          "accVersion": "Versiune ACC"
+        }
+      },
+      "activations": {
+        "activation1": "Fază lungă automată → fază adaptivă în funcție de trafic",
+        "activation2": "Asistență la schimbarea benzii → activată (nivel 2)",
+        "activation3": "Start/Stop automat → complet dezactivat",
+        "activation4": "Asistență la parcare → activată (nivel 2)",
+        "activation5": "Asistență la menținerea benzii → activată (nivel 2)",
+        "activation6": "Asistență la unghiul mort → activată (nivel 2)",
+        "activation7": "Asistență la trafic transversal spate → activată (nivel 2)",
+        "activation8": "Asistență la condus în coloană → activată (nivel 2)",
+        "activation9": "Asistență la condus pe autostradă → activată (nivel 2)",
+        "activation10": "Asistență la condus în oraș → activată (nivel 2)",
+        "activation11": "Asistență la condus în trafic aglomerat → activată (nivel 2)",
+        "activation12": "Asistență la condus pe drumuri secundare → activată (nivel 2)",
+        "activation13": "Asistență la condus pe drumuri rurale → activată (nivel 2)"
+      },
+      "activationsDescription": "Diagnoza completă, calibrare senzori și optimizări software care au îmbunătățit stabilitatea sistemelor de asistență și eficiența condusului.",
+      "status": "Finalizat",
+      "summary": {
+        "longBeamAdaptation": "Adaptarea fazei lungi pentru trafic dinamic: iluminare optimă fără orbire",
+        "accVersion4": "ACC versiune 4 – control mai fluid pe autostradă",
+        "maxSpeedRemoval": "Eliminare viteză maximă la cerere (configurabil)",
+        "polestarTheme": "Temă Polestar – experiență vizuală modernă la bord"
+      }
+    }
+  }
+}

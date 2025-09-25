@@ -1,0 +1,44 @@
+{
+  "projects": {
+    "volvo-xc60": {
+      "title": "Volvo XC60 B4 AWD 2021",
+      "projectHeader": {
+        "configurations": "Konfiguracje i optymalizacje",
+        "diagnosisTitle": "Pełna diagnostyka, kalibracja czujników i optymalizacja oprogramowania",
+        "result": "Wynik: płynniejsza i bardziej efektywna jazda po autostradzie i mieście – w pełni dostosowane do LHD.",
+        "tags": {
+          "fullDiagnosis": "Pełna diagnostyka",
+          "sensorCalibration": "Kalibracja czujników",
+          "softwareOptimized": "Oprogramowanie zoptymalizowane"
+        },
+        "cards": {
+          "modeActive": "Tryb aktywny",
+          "accVersion": "Wersja ACC"
+        }
+      },
+      "activations": {
+        "activation1": "Automatyczne światła drogowe → adaptacyjne w zależności od ruchu",
+        "activation2": "Asystent zmiany pasa → aktywowany (poziom 2)",
+        "activation3": "Start/Stop automatyczny → całkowicie wyłączony",
+        "activation4": "Motywy wyświetlacza → motyw Polestar",
+        "activation5": "Rozszerzony wyświetlacz ograniczenia prędkości → aktywowany",
+        "activation6": "Asystent prędkości w zakrętach → aktywowany",
+        "activation7": "Ostrzeżenie o odległości przed pojazdem → aktywowane",
+        "activation8": "Światło w zakrętach → aktywowane",
+        "activation9": "Światło do jazdy dla turystów → ustawione na ruch prawostronny (LHD)",
+        "activation10": "Sygnalizacja dźwiękowa zamykania centralnego → aktywowana",
+        "activation11": "Ograniczenie maksymalnej prędkości → usunięte",
+        "activation12": "Adaptacyjny tempomat (ACC) → aktywowany (poziom 2+)",
+        "activation13": "Wersja ACC → 4 (najnowsza dostępna wersja)"
+      },
+      "activationsDescription": "Pełna diagnostyka, kalibracja czujników i optymalizacje oprogramowania, które poprawiły stabilność systemów wspomagania oraz efektywność jazdy.",
+      "status": "Zakończono",
+      "summary": {
+        "longBeamAdaptation": "Adaptacja długich świateł do ruchu dynamicznego: optymalne oświetlenie bez oślepiania",
+        "accVersion4": "ACC wersja 4 – płynniejsza kontrola na autostradzie",
+        "maxSpeedRemoval": "Usunięcie maksymalnej prędkości na żądanie (konfigurowalne)",
+        "polestarTheme": "Motyw Polestar – nowoczesne wrażenia wizualne w kokpicie"
+      }
+    }
+  }
+}

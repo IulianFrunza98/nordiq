@@ -1,0 +1,44 @@
+{
+  "projects": {
+    "volvo-xc60": {
+      "title": "Volvo XC60 B4 AWD 2021",
+      "projectHeader": {
+        "configurations": "Konfiguration und Optimierungen",
+        "diagnosisTitle": "Vollständige Diagnose, Sensorkalibrierung und Softwareoptimierungen",
+        "result": "Ergebnis: flüssigeres und effizienteres Fahren auf Autobahn und Stadt – vollständig für LHD angepasst.",
+        "tags": {
+          "fullDiagnosis": "Vollständige Diagnose",
+          "sensorCalibration": "Sensorkalibrierung",
+          "softwareOptimized": "Software optimiert"
+        },
+        "cards": {
+          "modeActive": "Aktiver Modus",
+          "accVersion": "ACC-Version"
+        }
+      },
+      "activations": {
+        "activation1": "Automatisches Fernlicht → adaptiv je nach Verkehr",
+        "activation2": "Spurwechselassistent → aktiviert (Level 2)",
+        "activation3": "Automatisches Start/Stop → vollständig deaktiviert",
+        "activation4": "Anzeige-Themen → Polestar Thema",
+        "activation5": "Erweiterte Geschwindigkeitsanzeige → aktiviert",
+        "activation6": "Kurvengeschwindigkeitsassistent → aktiviert",
+        "activation7": "Abstandswarnung vorne → aktiviert",
+        "activation8": "Kurvenlicht → aktiviert",
+        "activation9": "Fahrlicht für Touristen → für Rechtsverkehr eingestellt (LHD)",
+        "activation10": "Zentralverriegelung-Signalton → aktiviert",
+        "activation11": "Maximalgeschwindigkeit → entfernt",
+        "activation12": "Adaptiver Tempomat (ACC) → aktiviert (Level 2+)",
+        "activation13": "ACC-Version → 4 (aktuellste verfügbare Version)"
+      },
+      "activationsDescription": "Umfassende Diagnose, Sensorkalibrierung und Softwareoptimierungen, die die Stabilität der Assistenzsysteme und die Fahreffizienz verbessert haben.",
+      "status": "Abgeschlossen",
+      "summary": {
+        "longBeamAdaptation": "Anpassung des Fernlichts für dynamischen Verkehr: optimale Beleuchtung ohne Blendung",
+        "accVersion4": "ACC Version 4 – flüssigere Kontrolle auf der Autobahn",
+        "maxSpeedRemoval": "Entfernung der Höchstgeschwindigkeit auf Anfrage (konfigurierbar)",
+        "polestarTheme": "Polestar-Theme – modernes visuelles Erlebnis im Cockpit"
+      }
+    }
+  }
+}

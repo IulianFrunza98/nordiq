@@ -1,0 +1,36 @@
+{
+  "ourServices": "Our Services",
+  "summaryImprovements": "Improvements Summary",
+  "improvements": "improvements",
+  "service1": "Diagnostics and error code reading",
+  "service2": "Software updates and upgrades",
+  "service3": "Feature activations and customizations",
+  "service4": "Retrofit and module replacement",
+  "service5": "Performance tuning and optimization",
+  "service6": "Pre-purchase inspections",
+  "services": "Services",
+  "portfolio": "Portfolio",
+  "about": "About",
+  "contact": "Contact",
+  "location": "Location",
+  "quickLinks": "Quick Links",
+  "phone": "Phone",
+  "email": "Email",
+  "home": "Home",
+  "followUs": "Follow us",
+  "activePerformance": "Performance Unleashed",
+  "professionalDiagnostics": "Professional diagnostics, activations, and retrofits for Volvo and Polestar.",
+  "contactUs": "Contact Us",
+  "viewDetails": "View Details",
+  "activations": "Activations Done",
+  "aboutNordiq": "About Nordiq",
+  "nordiqDescription": "Nordiq is your digital workshop from the North – born in Suceava out of passion for engineering and automotive software.",
+  "promo": {
+    "title": "📢 We offer 5–25% DISCOUNT!",
+    "description": "If you have been a Nordiq client, leave us a review on Google and send us the promo code <bold>NORDIQ25</bold>."
+  },
+  "review": "Leave us a review on Google",
+  "footer": {
+    "copyright": "2025 Nordiq. All rights reserved."
+  }
+}

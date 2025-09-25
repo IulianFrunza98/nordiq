@@ -1,0 +1,36 @@
+{
+  "ourServices": "Unsere Dienstleistungen",
+  "summaryImprovements": "Zusammenfassung der Verbesserungen",
+  "improvements": "Verbesserungen",
+  "service1": "Diagnose und Fehlercodeauslesung",
+  "service2": "Software-Updates und Upgrades",
+  "service3": "Funktionsaktivierungen und Anpassungen",
+  "service4": "Retrofit und Modulersatz",
+  "service5": "Leistungsoptimierung und Tuning",
+  "service6": "Vor-Kauf-Inspektionen",
+  "services": "Dienstleistungen",
+  "portfolio": "Portfolio",
+  "about": "Über uns",
+  "quickLinks": "Schnellzugriffe",
+  "contact": "Kontakt",
+  "email": "E-Mail",
+  "home": "Startseite",
+  "phone": "Telefon",
+  "location": "Standort",
+  "followUs": "Folge uns",
+  "activePerformance": "Leistung entfesselt",
+  "professionalDiagnostics": "Professionelle Diagnosen, Aktivierungen und Retrofits für Volvo und Polestar.",
+  "contactUs": "Kontaktiere uns",
+  "viewDetails": "Details ansehen",
+  "activations": "Durchgeführte Aktivierungen",
+  "aboutNordiq": "Über Nordiq",
+  "nordiqDescription": "Nordiq ist deine digitale Werkstatt aus dem Norden – in Suceava aus Leidenschaft für Ingenieurwesen und Auto-Software entstanden.",
+  "promo": {
+    "title": "📢 Wir bieten 5–25% RABATT!",
+    "description": "Wenn du ein Nordiq-Kunde warst, <bold>hinterlasse uns eine Bewertung</bold> auf Google und sende uns den Promo-Code <bold>NORDIQ25</bold>."
+  },
+  "review": "Hinterlasse uns eine Bewertung auf Google",
+  "footer": {
+    "copyright": "2025 Nordiq. Alle Rechte vorbehalten."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ourServices": "Serviciile Noastre",
+  "service1": "Diagnoză și citire coduri de eroare",
+  "service2": "Actualizări și upgrade-uri software",
+  "service3": "Activări și personalizări de funcții",
+  "service4": "Retrofit și înlocuire module",
+  "service5": "Optimizare și reglare a performanței",
+  "service6": "Inspecții pre-achiziție",
+  "services": "Servicii",
+  "portfolio": "Portofoliu",
+  "about": "Despre",
+  "contact": "Contact",
+  "email": "Email",
+  "quickLinks": "Link-uri rapide",
+  "home": "Acasă",
+  "summaryImprovements": "Rezumat îmbunătățiri",
+  "improvements": "îmbunătățiri",
+  "phone": "Telefon",
+  "followUs": "Urmărește-ne",
+  "activePerformance": "Performanță activată",
+  "professionalDiagnostics": "Diagnoză, activări și retrofituri profesionale pentru Volvo și Polestar.",
+  "contactUs": "Contactează-ne",
+  "viewDetails": "Vezi detalii",
+  "activations": "Activări realizate",
+  "location": "Locația",
+  "aboutNordiq": "Despre Nordiq",
+  "nordiqDescription": "Nordiq este atelierul tău digital din nord – născut în Suceava din pasiune pentru inginerie și software auto.",
+  "promo": {
+    "title": "📢 Oferim 5–25% REDUCERE!",
+    "description": "Dacă ai fost client Nordiq, lasă o recenzie pe Google și trimite-ne codul promoțional <bold>NORDIQ25</bold>."
+  },
+  "review": "Lasă o recenzie pe Google",
+  "footer": {
+    "copyright": "2025 Nordiq. Toate drepturile rezervate."
+  }
+}

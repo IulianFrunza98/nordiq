@@ -1,0 +1,47 @@
+{
+  "ourServices": "Våra Tjänster",
+  "service1": "Diagnostik och felkodsläsning",
+  "service2": "Programvaruuppdateringar och uppgraderingar",
+  "service3": "Funktionsaktiveringar och anpassningar",
+  "service4": "Retrofit och modulbyte",
+  "service5": "Prestandaoptimering och justering",
+  "service6": "Förköpsinspektioner",
+  "project1": {
+    "title": "Volvo XC60 B4 AWD 2021",
+    "description": "Fullständig diagnostik, sensorkalibrering och programvaruoptimeringar som förbättrade stabiliteten i assistanssystemen och körningens effektivitet.",
+    "activation1": "Automatiskt helljus → adaptivt baserat på trafik",
+    "activation2": "Filbytesassistans → aktiverad (nivå 2)",
+    "activation3": "Automatisk Start/Stop → helt inaktiverad",
+    "activation4": "Displayteman → Polestar-tema",
+    "activation5": "Utökad hastighetsgränsvisning → aktiverad",
+    "activation6": "Kurvhastighetsassistans → aktiverad",
+    "activation7": "Framåtdistansvarning → aktiverad",
+    "activation8": "Kurvljus → aktiverad",
+    "activation9": "Körljus för turister → inställt för högertrafik (LHD)",
+    "activation10": "Ljudsignal vid centrallås → aktiverad",
+    "activation11": "Maxhastighetsbegränsning → borttagen",
+    "activation12": "Adaptiv farthållare (ACC) → aktiverad (nivå 2+)",
+    "activation13": "ACC-version → 4 (senaste tillgängliga)",
+    "status": "Slutförd"
+  },
+  "followUs": "Följ oss",
+  "services": "Tjänster",
+  "portfolio": "Portfolio",
+  "about": "Om oss",
+  "contact": "Kontakt",
+  "activePerformance": "Frigjord Prestanda",
+  "professionalDiagnostics": "Professionell diagnostik, aktiveringar och retrofitter för Volvo och Polestar.",
+  "contactUs": "Kontakta oss",
+  "viewDetails": "Se detaljer",
+  "activations": "Utförda aktiveringar",
+  "aboutNordiq": "Om Nordiq",
+  "nordiqDescription": "Nordiq är din digitala verkstad från norr – född i Suceava av passion för ingenjörskonst och bilprogramvara. Vi kombinerar skandinavisk precision med erfarenhet från bilindustrin för att frigöra din bils fulla potential.",
+  "promo": {
+    "title": "📢 Vi erbjuder 5–25% RABATT!",
+    "description": "Om du har varit Nordiq-kund, <bold>lämna oss en recension</bold> på Google och skicka oss kampanjkoden <bold>NORDIQ25</bold>. Rabatten gäller beroende på valda tjänster."
+  },
+  "review": "Lämna oss en recension på Google",
+  "footer": {
+    "copyright": "2025 Nordiq. Alla rättigheter förbehållna."
+  }
+}

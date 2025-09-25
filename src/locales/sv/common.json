@@ -1,0 +1,36 @@
+{
+  "ourServices": "Våra Tjänster",
+  "service1": "Diagnostik och felkodsläsning",
+  "service2": "Programvaruuppdateringar och uppgraderingar",
+  "service3": "Funktionsaktiveringar och anpassningar",
+  "service4": "Retrofit och modulbyte",
+  "service5": "Prestandaoptimering och justering",
+  "service6": "Förköpsinspektioner",
+  "services": "Tjänster",
+  "summaryImprovements": "Sammanfattning av förbättringar",
+  "improvements": "förbättringar",
+  "portfolio": "Portfolio",
+  "about": "Om oss",
+  "location": "Plats",
+  "quickLinks": "Snabblänkar",
+  "phone": "Telefon",
+  "home": "Hem",
+  "contact": "Kontakt",
+  "email": "E-post",
+  "followUs": "Följ oss",
+  "activePerformance": "Frigjord Prestanda",
+  "professionalDiagnostics": "Professionell diagnostik, aktiveringar och retrofitter för Volvo och Polestar.",
+  "contactUs": "Kontakta oss",
+  "viewDetails": "Se detaljer",
+  "activations": "Utförda aktiveringar",
+  "aboutNordiq": "Om Nordiq",
+  "nordiqDescription": "Nordiq är din digitala verkstad från norr – född i Suceava av passion för ingenjörskonst och bilprogramvara.",
+  "promo": {
+    "title": "📢 Vi erbjuder 5–25% RABATT!",
+    "description": "Om du har varit Nordiq-kund, <bold>lämna oss en recension</bold> på Google och skicka oss kampanjkoden <bold>NORDIQ25</bold>."
+  },
+  "review": "Lämna oss en recension på Google",
+  "footer": {
+    "copyright": "2025 Nordiq. Alla rättigheter förbehållna."
+  }
+}

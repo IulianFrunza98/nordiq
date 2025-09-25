@@ -1,24 +1,28 @@
 import { useTranslation } from "react-i18next";
-import projectsDetails from "../../data/projectsDetails";
+import projects from "../../data/projects";
 import ProjectCard from "./ProjectCard";
 
 export default function PortfolioSection() {
-  const { t } = useTranslation();
+  const { t: tCommon } = useTranslation("common");
+  const { t: tProjects } = useTranslation("projects");
 
   return (
-    <section id="portfolio" className="py-16 px-4">
+    <section id="portfolio" className="py-16 px-4 bg-[#f9f9f9]">
       <h1 className="font-bold text-3xl mb-10 text-center relative inline-block">
-        {t("portfolio")}
+        {tCommon("portfolio")}
       </h1>
 
-      <div className="flex flex-wrap items-center justify-center flex-col sm:flex-row gap-7">
-        {projectsDetails.map((project) => (
+      <div className="flex flex-wrap justify-center gap-7">
+        {projects.map((project) => (
           <ProjectCard
             key={project.id}
             id={project.id}
-            image={project.gallery[0].images.image1}
-            title={t(project.titleKey)}
-            description={t(project.descriptionKey)}
+            image={project.image}
+            title={tProjects(`projects.${project.id}.title`)}
+            description={tProjects(
+              `projects.${project.id}.projectHeader.result`
+            )}
+            className="flex-1 min-w-[250px] max-w-[350px]"
           />
         ))}
       </div>

@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
-export default function Logo() {
+export default function Logo({ className = "", height = "h-15" }) {
   return (
-    <Link to="/">
+    <a href="#home">
       <img
-        className="h-15 cursor-pointer hover:scale-[1.1] transition duration-75"
+        className={`${height} cursor-pointer hover:scale-110 transition duration-75 ${className}`}
         src={logo}
         alt="logo"
       />
-    </Link>
+    </a>
   );
 }

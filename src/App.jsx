@@ -3,7 +3,7 @@ import { lazy, Suspense } from "react";
 import "./i18n";
 
 const Homepage = lazy(() => import("./pages/Homepage"));
-const ProjectPage = lazy(() => import("./pages/ProjectPage"));
+const ProjectPage = lazy(() => import("../src/pages/project/ProjectPage"));
 
 export default function App() {
   return (

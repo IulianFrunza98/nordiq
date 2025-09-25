@@ -1,0 +1,44 @@
+{
+  "projects": {
+    "volvo-xc60": {
+      "title": "Volvo XC60 B4 AWD 2021",
+      "projectHeader": {
+        "configurations": "Konfiguration och optimeringar",
+        "diagnosisTitle": "Fullständig diagnos, sensorjustering och mjukvaruoptimeringar",
+        "result": "Resultat: smidigare och mer effektiv körning på motorväg och i stad – helt anpassad för LHD.",
+        "tags": {
+          "fullDiagnosis": "Fullständig diagnos",
+          "sensorCalibration": "Sensorjustering",
+          "softwareOptimized": "Mjukvara optimerad"
+        },
+        "cards": {
+          "modeActive": "Aktivt läge",
+          "accVersion": "ACC-version"
+        }
+      },
+      "activations": {
+        "activation1": "Automatiskt helljus → adaptivt baserat på trafik",
+        "activation2": "Filbytesassistans → aktiverad (nivå 2)",
+        "activation3": "Automatisk Start/Stop → helt inaktiverad",
+        "activation4": "Displayteman → Polestar-tema",
+        "activation5": "Utökad hastighetsgränsvisning → aktiverad",
+        "activation6": "Kurvhastighetsassistans → aktiverad",
+        "activation7": "Framåtdistansvarning → aktiverad",
+        "activation8": "Kurvljus → aktiverad",
+        "activation9": "Körljus för turister → inställt för högertrafik (LHD)",
+        "activation10": "Ljudsignal vid centrallås → aktiverad",
+        "activation11": "Maxhastighetsbegränsning → borttagen",
+        "activation12": "Adaptiv farthållare (ACC) → aktiverad (nivå 2+)",
+        "activation13": "ACC-version → 4 (senaste tillgängliga)"
+      },
+      "activationsDescription": "Fullständig diagnostik, sensorkalibrering och programvaruoptimeringar som förbättrade stabiliteten i assistanssystemen och körningens effektivitet.",
+      "status": "Slutförd",
+      "summary": {
+        "longBeamAdaptation": "Anpassning av helljus för dynamisk trafik: optimal belysning utan bländning",
+        "accVersion4": "ACC version 4 – smidigare kontroll på motorväg",
+        "maxSpeedRemoval": "Borttagning av maxhastighet på begäran (konfigurerbar)",
+        "polestarTheme": "Polestar-tema – modern visuell upplevelse i cockpit"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ourServices": "Nasze Usługi",
+  "service1": "Diagnostyka i odczyt kodów błędów",
+  "service2": "Aktualizacje i ulepszenia oprogramowania",
+  "service3": "Aktywacje funkcji i personalizacje",
+  "service4": "Retrofit i wymiana modułów",
+  "service5": "Optymalizacja i regulacja wydajności",
+  "service6": "Przeglądy przed zakupem",
+  "project1": {
+    "title": "Volvo XC60 B4 AWD 2021",
+    "description": "Pełna diagnostyka, kalibracja czujników i optymalizacje oprogramowania, które poprawiły stabilność systemów wspomagania i efektywność jazdy.",
+    "activation1": "Automatyczne światła drogowe → adaptacyjne w zależności od ruchu",
+    "activation2": "Asystent zmiany pasa → aktywowany (poziom 2)",
+    "activation3": "Start/Stop automatyczny → całkowicie wyłączony",
+    "activation4": "Motywy wyświetlacza → motyw Polestar",
+    "activation5": "Rozszerzony wyświetlacz ograniczenia prędkości → aktywowany",
+    "activation6": "Asystent prędkości w zakrętach → aktywowany",
+    "activation7": "Ostrzeżenie o odległości przed pojazdem → aktywowane",
+    "activation8": "Światło w zakrętach → aktywowane",
+    "activation9": "Światło do jazdy dla turystów → ustawione na ruch prawostronny (LHD)",
+    "activation10": "Sygnalizacja dźwiękowa zamykania centralnego → aktywowana",
+    "activation11": "Ograniczenie maksymalnej prędkości → usunięte",
+    "activation12": "Adaptacyjny tempomat (ACC) → aktywowany (poziom 2+)",
+    "activation13": "Wersja ACC → 4 (najnowsza dostępna wersja)",
+    "status": "Zakończono"
+  },
+  "followUs": "Obserwuj nas",
+  "services": "Usługi",
+  "portfolio": "Portfolio",
+  "about": "O nas",
+  "contact": "Kontakt",
+  "activePerformance": "Odblokowana wydajność",
+  "professionalDiagnostics": "Profesjonalna diagnostyka, aktywacje i retrofity dla Volvo i Polestar.",
+  "contactUs": "Skontaktuj się z nami",
+  "viewDetails": "Zobacz szczegóły",
+  "activations": "Wykonane aktywacje",
+  "aboutNordiq": "O Nordiq",
+  "nordiqDescription": "Nordiq to Twój cyfrowy warsztat z północy – powstały w Suceavie z pasji do inżynierii i oprogramowania samochodowego. Łączymy skandynawską precyzję z doświadczeniem w branży motoryzacyjnej, aby w pełni wykorzystać potencjał Twojego auta.",
+  "promo": {
+    "title": "📢 Oferujemy 5–25% RABATU!",
+    "description": "Jeśli byłeś klientem Nordiq, <bold>zostaw nam recenzję</bold> na Google i prześlij kod promocyjny <bold>NORDIQ25</bold>. Rabat dotyczy wybranych usług."
+  },
+  "review": "Zostaw nam recenzję na Google",
+  "footer": {
+    "copyright": "2025 Nordiq. Wszelkie prawa zastrzeżone."
+  }
+}

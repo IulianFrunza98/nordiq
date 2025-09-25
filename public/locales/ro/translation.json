@@ -1,0 +1,48 @@
+{
+  "ourServices": "Serviciile Noastre",
+  "service1": "Diagnoză și citire coduri de eroare",
+  "service2": "Actualizări și upgrade-uri software",
+  "service3": "Activări și personalizări de funcții",
+  "service4": "Retrofit și înlocuire module",
+  "service5": "Optimizare și reglare a performanței",
+  "service6": "Inspecții pre-achiziție",
+  "project1": {
+    "title": "Volvo XC60 B4 AWD 2021",
+    "description": "Diagnoză completă, calibrare senzori și optimizări software care au imbunătățit stabilitatea sistemelor de asistență si eficiența condusului.",
+    "result": "Rezultatul: condus mai fluid și eficient pe autostradă și în oraș – experiența complet adaptată pentru LHD.",
+    "activation1": "Fază lungă automată → fază adaptivă în funcție de trafic",
+    "activation2": "Asistență la schimbarea benzii → activată (nivel 2)",
+    "activation3": "Start/Stop automat → complet dezactivat",
+    "activation4": "Teme de afișaj → temă Polestar",
+    "activation5": "Afișare extinsă a limitei de viteză → activată",
+    "activation6": "Asistență la viteză în curbe → activată",
+    "activation7": "Avertizare distanță față de vehiculul din față → activată",
+    "activation8": "Lumină în viraje (cornering) → activată",
+    "activation9": "Lumină de călătorie pentru turiști → setată pentru circulație pe partea dreaptă (LHD)",
+    "activation10": "Semnal sonor la închiderea centralizată → activat",
+    "activation11": "Limitare viteză maximă vehicul → eliminată",
+    "activation12": "Pilot automat adaptiv (ACC) → activat (nivel 2+)",
+    "activation13": "Versiune ACC → 4 (cea mai recentă versiune disponibilă)",
+    "status": "Finalizat"
+  },
+  "followUs": "Urmărește-ne",
+  "services": "Servicii",
+  "portfolio": "Portofoliu",
+  "about": "Despre",
+  "contact": "Contact",
+  "activePerformance": "Performanță activată",
+  "professionalDiagnostics": "Diagnoză, activări și retrofituri profesionale pentru Volvo și Polestar.",
+  "contactUs": "Contactează-ne",
+  "viewDetails": "Vezi detalii",
+  "activations": "Activări realizate",
+  "aboutNordiq": "Despre Nordiq",
+  "nordiqDescription": "Nordiq este atelierul tău digital din nord – născut în Suceava din pasiune pentru inginerie și software auto. Combinăm precizia scandinavă cu experiența din industria automotive pentru a-ți activa potențialul complet al mașinii.",
+  "promo": {
+    "title": "📢 Oferim 5–25% REDUCERE!",
+    "description": "Dacă ai fost client Nordiq, lasă o recenzie pe Google și trimite-ne codul promoțional <bold>NORDIQ25</bold>. Reducerea se aplică în funcție de serviciile alese."
+  },
+  "review": "Lasă o recenzie pe Google",
+  "footer": {
+    "copyright": "2025 Nordiq. Toate drepturile rezervate."
+  }
+}

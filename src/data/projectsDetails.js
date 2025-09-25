@@ -7,22 +7,48 @@ import project1Video1 from "../assets/Project 1/xc60-b4-2021.mp4";
 const projectsDetails = [
   {
     id: "volvo-xc60",
-    titleKey: "project1.title",
-    descriptionKey: "project1.description",
+    titleKey: "projects.volvo-xc60.title",
+    descriptionKey: "projects.volvo-xc60.activationsDescription",
+    resultKey: "projects.volvo-xc60.projectHeader.result",
+    projectHeader: {
+      configurationsKey: "projects.volvo-xc60.projectHeader.configurations",
+      diagnosisTitleKey: "projects.volvo-xc60.projectHeader.diagnosisTitle",
+      tagsKeys: [
+        "projects.volvo-xc60.projectHeader.tags.fullDiagnosis",
+        "projects.volvo-xc60.projectHeader.tags.sensorCalibration",
+        "projects.volvo-xc60.projectHeader.tags.softwareOptimized",
+      ],
+      cards: {
+        modeActive: {
+          labelKey: "projects.volvo-xc60.projectHeader.cards.modeActive",
+          value: 13,
+        },
+        accVersion: {
+          labelKey: "projects.volvo-xc60.projectHeader.cards.accVersion",
+          value: 4,
+        },
+      },
+    },
+    summaryKeys: [
+      "projects.volvo-xc60.summary.longBeamAdaptation",
+      "projects.volvo-xc60.summary.accVersion4",
+      "projects.volvo-xc60.summary.maxSpeedRemoval",
+      "projects.volvo-xc60.summary.polestarTheme",
+    ],
     activationsKeys: [
-      "project1.activation1",
-      "project1.activation2",
-      "project1.activation3",
-      "project1.activation4",
-      "project1.activation5",
-      "project1.activation6",
-      "project1.activation7",
-      "project1.activation8",
-      "project1.activation9",
-      "project1.activation10",
-      "project1.activation11",
-      "project1.activation12",
-      "project1.activation13",
+      "projects.volvo-xc60.activations.activation1",
+      "projects.volvo-xc60.activations.activation2",
+      "projects.volvo-xc60.activations.activation3",
+      "projects.volvo-xc60.activations.activation4",
+      "projects.volvo-xc60.activations.activation5",
+      "projects.volvo-xc60.activations.activation6",
+      "projects.volvo-xc60.activations.activation7",
+      "projects.volvo-xc60.activations.activation8",
+      "projects.volvo-xc60.activations.activation9",
+      "projects.volvo-xc60.activations.activation10",
+      "projects.volvo-xc60.activations.activation11",
+      "projects.volvo-xc60.activations.activation12",
+      "projects.volvo-xc60.activations.activation13",
     ],
     gallery: [
       {
@@ -35,6 +61,7 @@ const projectsDetails = [
         videos: { video1: project1Video1 },
       },
     ],
+    status: "Finalizat",
   },
 ];
 

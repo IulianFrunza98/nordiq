@@ -1,0 +1,44 @@
+{
+  "projects": {
+    "volvo-xc60": {
+      "title": "Volvo XC60 B4 AWD 2021",
+      "projectHeader": {
+        "configurations": "Configuration and optimizations",
+        "diagnosisTitle": "Full diagnosis, sensor calibration and software optimizations",
+        "result": "Result: smoother and more efficient driving on highway and city – fully adapted for LHD.",
+        "tags": {
+          "fullDiagnosis": "Full diagnosis",
+          "sensorCalibration": "Sensor calibration",
+          "softwareOptimized": "Software optimized"
+        },
+        "cards": {
+          "modeActive": "Active mode",
+          "accVersion": "ACC version"
+        }
+      },
+      "activations": {
+        "activation1": "Automatic high beam → adaptive based on traffic",
+        "activation2": "Lane change assist → activated (level 2)",
+        "activation3": "Automatic Start/Stop → completely disabled",
+        "activation4": "Display themes → Polestar theme",
+        "activation5": "Extended speed limit display → activated",
+        "activation6": "Curve speed assist → activated",
+        "activation7": "Front distance warning → activated",
+        "activation8": "Cornering light → activated",
+        "activation9": "Driving light for tourists → set for right-hand traffic (LHD)",
+        "activation10": "Central locking sound → activated",
+        "activation11": "Max speed limit → removed",
+        "activation12": "Adaptive Cruise Control (ACC) → activated (level 2+)",
+        "activation13": "ACC version → 4 (latest available)"
+      },
+      "activationsDescription": "Complete diagnostics, sensor calibration, and software optimizations that improved the stability of assistance systems and driving efficiency.",
+      "status": "Completed",
+      "summary": {
+        "longBeamAdaptation": "Long beam adaptation for dynamic traffic: optimal lighting without glare",
+        "accVersion4": "ACC version 4 – smoother control on highway",
+        "maxSpeedRemoval": "Maximum speed removal on request (configurable)",
+        "polestarTheme": "Polestar theme – modern visual experience in cockpit"
+      }
+    }
+  }
+}

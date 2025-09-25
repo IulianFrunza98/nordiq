@@ -7,3 +7,32 @@ html {
 section {
   @apply w-full py-[40px] px-[20px] mx-auto gap-4 flex text-center flex-col items-center justify-center;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3745da;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #283593;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(6, 1, 32);
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

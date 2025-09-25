@@ -1,0 +1,47 @@
+{
+  "ourServices": "Our Services",
+  "service1": "Diagnostics and Error Code Reading",
+  "service2": "Software Updates and Upgrades",
+  "service3": "Feature Activations and Customizations",
+  "service4": "Retrofit and Module Replacement",
+  "service5": "Performance Tuning and Optimization",
+  "service6": "Pre-Purchase Inspections",
+  "project1": {
+    "title": "Volvo XC60 B4 AWD 2021",
+    "description": "Full diagnostics, sensor calibration, and software optimizations that improved the stability of assistance systems and driving efficiency.",
+    "activation1": "Automatic high beam → adaptive based on traffic",
+    "activation2": "Lane change assist → activated (level 2)",
+    "activation3": "Automatic Start/Stop → completely disabled",
+    "activation4": "Display themes → Polestar theme",
+    "activation5": "Extended speed limit display → activated",
+    "activation6": "Curve speed assist → activated",
+    "activation7": "Front distance warning → activated",
+    "activation8": "Cornering light → activated",
+    "activation9": "Driving light for tourists → set for right-hand traffic (LHD)",
+    "activation10": "Central locking sound → activated",
+    "activation11": "Max speed limit → removed",
+    "activation12": "Adaptive Cruise Control (ACC) → activated (level 2+)",
+    "activation13": "ACC version → 4 (latest available)",
+    "status": "Completed"
+  },
+  "followUs": "Follow us",
+  "services": "Services",
+  "portfolio": "Portfolio",
+  "about": "About",
+  "contact": "Contact",
+  "activePerformance": "Performance Unleashed",
+  "professionalDiagnostics": "Professional diagnostics, activations, and retrofits for Volvo and Polestar.",
+  "contactUs": "Contact Us",
+  "viewDetails": "View Details",
+  "activations": "Activations Done",
+  "aboutNordiq": "About Nordiq",
+  "nordiqDescription": "Nordiq is your digital workshop from the North – born in Suceava out of passion for engineering and automotive software. We combine Scandinavian precision with automotive industry experience to unlock your car's full potential.",
+  "promo": {
+    "title": "📢 We offer 5–25% DISCOUNT!",
+    "description": "If you have been a Nordiq client, leave us a review on Google and send us the promo code <bold>NORDIQ25</bold>. The discount applies depending on the chosen services."
+  },
+  "review": "Leave us a review on Google",
+  "footer": {
+    "copyright": "2025 Nordiq. All rights reserved."
+  }
+}
