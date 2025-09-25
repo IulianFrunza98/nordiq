@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col gap-2 text-center sm:text-left">
-          <h4 className="font-semibold text-[1.6rem] text-white mb-2 tracking-wide">
+          <h4 className="font-semibold text-[1.4rem] text-white mb-2 tracking-wide">
             {t("quickLinks")}
           </h4>
           <div className="flex flex-col gap-4 sm:gap-2">
@@ -29,9 +29,9 @@ export default function Footer() {
                 <a
                   key={key}
                   href={`#${key}`}
-                  className="group relative inline-flex items-center pl-5 w-fit mx-auto sm:mx-0 text-left text-white font-medium transition-all duration-300 hover:text-blue-400"
+                  className="group relative inline-flex items-center w-fit mx-auto sm:mx-0 text-left text-white font-medium transition-all duration-300 hover:text-blue-400"
                 >
-                  <span className="absolute left-0 top-1/2 -translate-y-1/2 h-0.5 w-4 bg-blue-400 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                  <span className="absolute -left-6 top-1/2 -translate-y-1/2 h-0.5 w-4 bg-blue-400 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
                   <span className="inline-block transform transition-transform duration-300 group-hover:translate-x-1">
                     {t(key)}
                   </span>
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 sm:gap-2 text-center sm:text-left">
-          <h4 className="font-semibold text-white mb-2 text-[1.6rem] tracking-wide">
+          <h4 className="font-semibold text-white mb-2 text-[1.4rem] tracking-wide">
             {t("contact")}
           </h4>
           <a
